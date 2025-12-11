@@ -1,0 +1,13 @@
+traffic_light.c:12:6:fsm_traffic_light	8	static
+traffic_light.c:83:6:turn_on_red_green	8	static
+traffic_light.c:92:6:turn_on_red_amber	8	static
+traffic_light.c:101:6:turn_on_green_red	8	static
+traffic_light.c:110:6:turn_on_amber_red	8	static
+traffic_light.c:119:6:init_auto_red_green	8	static
+traffic_light.c:131:6:auto_red_green	8	static
+traffic_light.c:146:6:init_auto_red_amber	8	static
+traffic_light.c:157:6:auto_red_amber	8	static
+traffic_light.c:172:6:init_auto_green_red	8	static
+traffic_light.c:184:6:auto_green_red	8	static
+traffic_light.c:199:6:init_auto_amber_red	8	static
+traffic_light.c:210:6:auto_amber_red	8	static
