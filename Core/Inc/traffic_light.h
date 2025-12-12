@@ -18,11 +18,12 @@ enum TrafficLightState
 	AUTO_GREEN_RED,
 	AUTO_AMBER_RED,
 	RED_TIME_CONFIG,
-	RED_TIME_CONFIG_CHANGE,
 	AMBER_TIME_CONFIG,
-	AMBER_TIME_CONFIG_CHANGE,
 	GREEN_TIME_CONFIG,
-	GREEN_TIME_CONFIG_CHANGE,
+	MANUAL_RED_GREEN,
+	MANUAL_RED_AMBER,
+	MANUAL_GREEN_RED,
+	MANUAL_AMBER_RED
 };
 
 void fsm_traffic_light();
@@ -47,19 +48,22 @@ void auto_amber_red();
 void init_red_time_config();
 void red_time_config();
 
-void init_red_time_config_change();
-void red_time_config_change();
-
 void init_amber_time_config();
 void amber_time_config();
-
-void init_amber_time_config_change();
-void amber_time_config_change();
 
 void init_green_time_config();
 void green_time_config();
 
-void init_green_time_config_change();
-void green_time_config_change();
+void init_manual_red_green();
+void manual_red_green();
+
+void init_manual_red_amber();
+void manual_red_amber();
+
+void init_manual_green_red();
+void manual_green_red();
+
+void init_manual_amber_red();
+void manual_amber_red();
 
 #endif /* INC_TRAFFIC_LIGHT_H_ */

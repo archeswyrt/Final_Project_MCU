@@ -77,7 +77,7 @@ void lcd_goto_XY (int row, int col)
 	lcd_send_cmd(pos_Addr);
 }
 
-void lcd_update(char *label1, int time1, char *label2, int time2)
+void lcd_auto_mode(char *label1, int time1, char *label2, int time2)
 {
 	char buffer[17];
 	lcd_goto_XY(1, 0);
@@ -88,8 +88,25 @@ void lcd_update(char *label1, int time1, char *label2, int time2)
 	lcd_send_string(buffer);
 }
 
+void lcd_config_mode(char *label, int val)
+{
+	char buffer[17];
+	lcd_goto_XY(1, 0);
+	lcd_send_string("MODE: CONFIG    ");
+	lcd_goto_XY(2, 0);
+	sprintf(buffer, "%-6s: %02d    ", label, val);
+	lcd_send_string(buffer);
+}
 
-
+void lcd_manual_mode(char *string)
+{
+	lcd_goto_XY(1, 0);
+	lcd_send_string("MODE: MANUAL    ");
+	lcd_goto_XY(2, 0);
+	char buffer[17];
+	sprintf(buffer, "%-16s", string);
+	lcd_send_string(buffer);
+}
 
 
 

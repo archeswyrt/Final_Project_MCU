@@ -22,6 +22,8 @@ void lcd_clear_display (void);	//clear display lcd
 
 void lcd_goto_XY (int row, int col); //set proper location on screen
 
-void lcd_update(char *label1, int time1, char *label2, int time2);
+void lcd_auto_mode(char *label1, int time1, char *label2, int time2);
+void lcd_config_mode(char *label, int val);
+void lcd_manual_mode(char *string);
 
 #endif /* INC_I2C_LCD_H_ */
