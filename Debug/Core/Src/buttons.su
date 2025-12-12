@@ -1,4 +1,4 @@
-buttons.c:40:6:getKeyInput	16	static
-buttons.c:74:5:isButtonPressed	16	static
-buttons.c:84:5:isButtonLongPressed	16	static
-buttons.c:94:6:resetButton	16	static
+../Core/Src/buttons.c:40:6:getKeyInput	16	static
+../Core/Src/buttons.c:74:5:isButtonPressed	16	static
+../Core/Src/buttons.c:84:5:isButtonLongPressed	16	static
+../Core/Src/buttons.c:94:6:resetButton	16	static

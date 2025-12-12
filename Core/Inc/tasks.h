@@ -10,15 +10,8 @@
 
 #include "main.h"
 
-void BlinkyLed();
-void msg1();
-void turn_red();
-void turn_amber();
-void turn_green();
+void blinkyLED();
 void getButtons();
-void testbutton0();
-void testbutton1();
-void testbutton2();
-
 void fsm();
+
 #endif /* INC_TASKS_H_ */

@@ -1,0 +1,3 @@
+../Core/Src/tasks.c:9:6:blinkyLED	1
+../Core/Src/tasks.c:14:6:getButtons	1
+../Core/Src/tasks.c:21:6:fsm	1

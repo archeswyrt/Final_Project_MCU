@@ -10,7 +10,6 @@
 
 #include "stm32f1xx_hal.h"
 
-
 void lcd_init (void);   // initialize lcd
 
 void lcd_send_cmd (char cmd);  // send command to the lcd
@@ -23,5 +22,6 @@ void lcd_clear_display (void);	//clear display lcd
 
 void lcd_goto_XY (int row, int col); //set proper location on screen
 
-void lcd_display(int a, int b);
+void lcd_update(char *label1, int time1, char *label2, int time2);
+
 #endif /* INC_I2C_LCD_H_ */

@@ -1,0 +1,13 @@
+../Core/Src/traffic_light.c:12:6:fsm_traffic_light	10
+../Core/Src/traffic_light.c:82:6:turn_on_red_green	1
+../Core/Src/traffic_light.c:91:6:turn_on_red_amber	1
+../Core/Src/traffic_light.c:100:6:turn_on_green_red	1
+../Core/Src/traffic_light.c:109:6:turn_on_amber_red	1
+../Core/Src/traffic_light.c:118:6:init_auto_red_green	1
+../Core/Src/traffic_light.c:130:6:auto_red_green	2
+../Core/Src/traffic_light.c:146:6:init_auto_red_amber	1
+../Core/Src/traffic_light.c:158:6:auto_red_amber	2
+../Core/Src/traffic_light.c:174:6:init_auto_green_red	1
+../Core/Src/traffic_light.c:186:6:auto_green_red	2
+../Core/Src/traffic_light.c:202:6:init_auto_amber_red	1
+../Core/Src/traffic_light.c:214:6:auto_amber_red	2

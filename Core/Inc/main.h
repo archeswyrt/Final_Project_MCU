@@ -32,6 +32,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
 #include "software_timer.h"
 #include "tasks.h"
 #include "scheduler.h"
@@ -39,11 +40,12 @@ extern "C" {
 #include "global.h"
 #include "traffic_light.h"
 #include "buttons.h"
-#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+extern SPI_HandleTypeDef hspi2;
+
 extern UART_HandleTypeDef huart2;
 /* USER CODE END ET */
 
@@ -71,6 +73,8 @@ void Error_Handler(void);
 #define LED_RED_GPIO_Port GPIOA
 #define BUTTON1_Pin GPIO_PIN_10
 #define BUTTON1_GPIO_Port GPIOB
+#define LATCH_Pin GPIO_PIN_14
+#define LATCH_GPIO_Port GPIOB
 #define LED1_Pin GPIO_PIN_8
 #define LED1_GPIO_Port GPIOA
 #define LED2_Pin GPIO_PIN_9

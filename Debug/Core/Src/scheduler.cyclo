@@ -1,0 +1,15 @@
+../Core/Src/scheduler.c:15:6:List_resetNodeData	1
+../Core/Src/scheduler.c:24:6:initFreeList	2
+../Core/Src/scheduler.c:33:6:List_init	1
+../Core/Src/scheduler.c:40:9:List_getFreeIndex	2
+../Core/Src/scheduler.c:52:6:List_freeIndex	3
+../Core/Src/scheduler.c:65:9:List_isEmpty	1
+../Core/Src/scheduler.c:70:6:List_insertNode	9
+../Core/Src/scheduler.c:128:6:List_popHead	2
+../Core/Src/scheduler.c:138:6:SCH_Init	1
+../Core/Src/scheduler.c:144:6:SCH_Update	4
+../Core/Src/scheduler.c:162:6:SCH_Dispatch_Tasks	7
+../Core/Src/scheduler.c:201:10:SCH_Add_Task	2
+../Core/Src/scheduler.c:219:9:SCH_Delete_Task	9
+../Core/Src/scheduler.c:270:6:SCH_Report_Status	1
+../Core/Src/scheduler.c:276:6:SCH_Go_To_Sleep	1

@@ -77,14 +77,26 @@ void lcd_goto_XY (int row, int col)
 	lcd_send_cmd(pos_Addr);
 }
 
-void lcd_display(int a, int b)
+void lcd_update(char *label1, int time1, char *label2, int time2)
 {
-	char buffer[16];
-	sprintf(buffer, "%d", a);
-	lcd_goto_XY(1,0);
+	char buffer[17];
+	lcd_goto_XY(1, 0);
+	sprintf(buffer, "%s: %02d    ", label1, time1);
 	lcd_send_string(buffer);
-	sprintf(buffer, "%d", b);
-	lcd_goto_XY(2,0);
+	lcd_goto_XY(2, 0);
+	sprintf(buffer, "%s: %02d    ", label2, time2);
 	lcd_send_string(buffer);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
